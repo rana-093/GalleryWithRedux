@@ -1,0 +1,50 @@
+export const theme = {
+    breakpoints: {
+      mobile: "576px",
+      tablet: "768px",
+      desktop: "992px",
+      lgDesktop: "1200px",
+      xlgDesktop: "1500px",
+    },
+    breakpointsInt: {
+      mobile: 576,
+      tablet: 768,
+      desktop: 992,
+      lgDesktop: 1200,
+    },
+    colors: {
+      typography: {
+        primary: "#27AE60",
+        title: "#252525",
+        text: "#3C3C3C",
+        light: "#FFFFFF",
+        lightGrey: "#808080",
+        grey: "#BEBEBE",
+        title1: "#212121",
+      },
+  
+      primary: "#27AE60",
+      primaryLight: "#54C784",
+      shadow: "0px 10px 20px rgba(22, 51, 32, 0.16)",
+      smallCardShadow: "0px 12px 24px rgba(47, 52, 77, 0.12)",
+      border: "#DEDEDE",
+      divider: "#DBDBDB",
+      menuHover: "#21212D",
+      body: "#FFFFFF",
+      borderLight: "#F8F8F8",
+      line: "#C4C4C4",
+      socialIcon: "#34495E",
+      dividerLight: "#E8E8E8",
+      borderAwards: "#E0E0E0",
+      light: "#FFFFFF",
+      greyBg: "#F6F6F6",
+      lightBg: "#F8F8F8",
+      greyish: "#8C8C8C",
+      lighterBg: "#F9F9F9",
+      yellow: "#FEC50E",
+      dividerLighter: "rgba(222, 222, 222, 0.4)",
+      backgroundBlend: "#242424",
+    },
+  };
+
+  

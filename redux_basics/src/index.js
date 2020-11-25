@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createStore } from 'redux';
+import reducer from '../src/store/reducer';
+import { Provider } from 'react-redux';
+
+const store = createStore(reducer);
+
+console.log(store.getState());
+
+store.subscribe(() => {
+  console.log('Subscription ',store.getState());
+});
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 
