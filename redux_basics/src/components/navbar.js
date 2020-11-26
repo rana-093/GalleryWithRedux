@@ -5,10 +5,15 @@ import { down } from 'styled-breakpoints';
 import { useSelector } from 'react-redux';
 
 const Outer = styled.div`
-    height: auto;
+    height: 50px;
     border: 5px solid blue;
     display: flex;
     position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 1;
+    border-radius: 10px;
+    background: greenyellow;
     @media only screen and (max-width: 862px) {
         flex-direction: column;
         justify-content: center;

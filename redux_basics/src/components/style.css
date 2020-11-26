@@ -1,0 +1,38 @@
+.my-img {
+  height: 400px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.my-img:hover {
+  transform: scale(0.9);
+  transition: 0.5s ease;
+  opacity: 0.4;
+}
+
+.my-img:hover .my-icon {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 862px) {
+  .my-img {
+    width: 100%;
+  }
+}
+
+.my-icon {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  font-size: 45px;
+  opacity: 0;
+}
+
+.my-icon:hover {
+  opacity: 1;
+}
+
+.my-icon:hover .my-image {
+  opacity: 4;
+}
